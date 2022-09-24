@@ -10,8 +10,7 @@ files[] = {"id":"827030-d50b9160-a125-48b5-9ab4-b65ffaa335a9","path":"Test.json"
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index.graphql","metaData":{}}
+files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = graphql
-rootFiles[] = index.graphql
+type = openapi:3
